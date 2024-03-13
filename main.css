@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#todo-list {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#tarefas {
+    list-style-type: none;
+    padding: 0;
+}
+
+#tarefas li {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#tarefas li.done {
+    text-decoration: line-through;
+}
